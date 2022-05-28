@@ -74,7 +74,8 @@ UICorner_2.Parent = Key_2
 while wait(.5) do
 	if Key_2.Text == "zhongxina" then
 		if game.PlaceId == 8534845015 then
-			loadstring()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/sakura.lua"))()
+			Frame.Visible = false
 		end
 	end
 end
