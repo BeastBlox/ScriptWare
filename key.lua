@@ -1,4 +1,4 @@
---Instances:
+-- Instances:
 
 local Key = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -18,8 +18,9 @@ Key.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame.Parent = Key
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Position = UDim2.new(0.4, 0, 0.4, 0)
 Frame.Size = UDim2.new(0, 349, 0, 199)
+Frame.Draggable = true
 
 ScriptWare.Name = "ScriptWare"
 ScriptWare.Parent = Frame
