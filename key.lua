@@ -75,6 +75,8 @@ while wait(.5) do
 	if Key_2.Text == "zhongxina" then
 		if game.PlaceId == 8534845015 then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/sakura.lua"))()
+			Key_2.Text = "Correct"
+			wait(1)
 			Frame.Visible = false
 		end
 	end
