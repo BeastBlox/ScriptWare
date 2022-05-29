@@ -106,3 +106,4 @@ while wait(.5) do
 			end
 		end
 	end
+d
