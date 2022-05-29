@@ -78,6 +78,13 @@ while wait(.5) do
 			Key_2.Text = "Correct"
 			wait(1)
 			Frame.Visible = false
+		end)
+	if Key_2.Text == "zhongxina" then
+		if game.PlaceId == 9203864304 then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/raise%20a%20floppa"))()
+			Key_2.Text = "Correct"
+			wait(1)
+			Frame.Visible = false
 		end
 	end
 end
