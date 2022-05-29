@@ -102,7 +102,7 @@ Enter.MouseButton1Click:Connect(function()
 			wait(1)
 			Frame.Visible = false
 		else
-			Key_2.Text = "Wrong Key"
+			Key_2.Text = "Game Not Supported Yet"
 			wait(1)
 			Frame.Visible = false
 		end
