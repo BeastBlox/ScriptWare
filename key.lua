@@ -92,7 +92,7 @@ Enter.MouseButton1Click:Connect(function()
 			wait(1)
 			Frame.Visible = false
 		elseif game.PlaceId == 9203864304 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/raise%20a%20floppa"))()
+			loadstring(game:HttpGet(https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/raise%20a%20floppa.lua"))()
 			Key_2.Text = "Correct"
 			wait(1)
 			Frame.Visible = false
