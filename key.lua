@@ -73,10 +73,10 @@ Key_2.TextWrapped = true
 UICorner_2.Parent = Key_2
 
 Enter.Name = "Enter"
-Enter.Parent = Key
+Enter.Parent = Frame
 Enter.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
 Enter.BorderSizePixel = 0
-Enter.Position = UDim2.new(0.400000006, 0, 0.400000006, 0)
+Enter.Position = UDim2.new(0.453683436, 0, 0.578792334, 0)
 Enter.Size = UDim2.new(0, 200, 0, 50)
 Enter.Font = Enum.Font.SourceSans
 Enter.Text = "Press To Enter Key"
