@@ -60,6 +60,9 @@ AutoClick.MouseButton1Down:Connect(function()
 				for i,v in pairs(workspace.Floppa:GetDescendants()) do
 					if v:IsA("ClickDetector") and on == true then
 						fireclickdetector(v)
+							for i, target in pairs(game.Workspace:GetDescendants()) do
+                        if target.Name == "Money" then
+                            firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, target, 0)
 					end
 				end
 			end
