@@ -101,7 +101,8 @@ while wait(.5) do
 		else
 			wait(1)
 			Frame.Visible = false
-		    end
-    	end
-    end
+		    		end
+    			end
+    		end
+	end
 end
