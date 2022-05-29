@@ -93,8 +93,8 @@ while wait(.5) do
 			Frame.Visible = false
 		    end
 	if Key_2.Text == "zhongxina" then
-		if game.PlaceId == 9203864304 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/raise%20a%20floppa"))()
+		if game.PlaceId == 1962086868 then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/tower%20of%20hell.lua"))()
 			Key_2.Text = "Correct"
 			wait(1)
 			Frame.Visible = false
