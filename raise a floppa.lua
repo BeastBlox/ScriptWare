@@ -51,23 +51,24 @@ AutoClick.TextScaled = true
 AutoClick.TextSize = 14.000
 AutoClick.TextWrapped = true
 AutoClick.MouseButton1Down:Connect(function()
-		local on = false
-		if on == false then
-			on = true
-			AutoClick.Text = "AutoClick ✅"
-			while wait() do
-				if fireclickdetector then
-					for i,v in pairs(workspace.Floppa:GetDescendants()) do
-						if v:IsA("ClickDetector") and on == true then
-							fireclickdetector(v)
-						else
-							AutoClick.Text = "AutoClick"
-						end
-					end
-				end
-			end
-		end
-	end)
+    local on = false
+    if on == false then
+    on = true
+    AutoClick.Text = "AutoClick ✅"
+    while wait() do
+        if fireclickdetector then
+            for i,v in pairs(workspace.Floppa:GetDescendants()) do
+                if v:IsA("ClickDetector") and on == true then
+                        fireclickdetector(v)
+                    else
+                        AutoClick.Text = "AutoClick ❌"
+                    end
+                end
+            end
+        end
+    end
+end)
+
 
 Label.Name = "Label"
 Label.Parent = FrameBack
