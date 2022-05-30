@@ -45,30 +45,29 @@ AutoClick.BorderSizePixel = 0
 AutoClick.Position = UDim2.new(0.318413585, 0, 0.248826295, 0)
 AutoClick.Size = UDim2.new(0, 148, 0, 122)
 AutoClick.Font = Enum.Font.SourceSans
-AutoClick.Text = "AutoClick ❌"
+AutoClick.Text = "AutoClick"
 AutoClick.TextColor3 = Color3.fromRGB(255, 115, 0)
 AutoClick.TextScaled = true
 AutoClick.TextSize = 14.000
 AutoClick.TextWrapped = true
 AutoClick.MouseButton1Down:Connect(function()
-	local on = false
-	if on == false then
-		on = true
-		AutoClick.Text = "AutoClick ✅"
-		while wait() do
-			if fireclickdetector then
-				for i,v in pairs(workspace.Floppa:GetDescendants()) do
-					if v:IsA("ClickDetector") and on == true then
-						fireclickdetector(v)
-							for i, target in pairs(game.Workspace:GetDescendants()) do
-                        if target.Name == "Money" then
-                            firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, target, 0)
+		local on = false
+		if on == false then
+			on = true
+			AutoClick.Text = "AutoClick ✅"
+			while wait() do
+				if fireclickdetector then
+					for i,v in pairs(workspace.Floppa:GetDescendants()) do
+						if v:IsA("ClickDetector") and on == true then
+							fireclickdetector(v)
+						else
+							AutoClick.Text = "AutoClick"
+						end
 					end
 				end
 			end
 		end
-	end
-end)
+	end)
 
 Label.Name = "Label"
 Label.Parent = FrameBack
