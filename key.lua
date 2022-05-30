@@ -84,7 +84,7 @@ Enter.TextColor3 = Color3.fromRGB(0, 0, 0)
 Enter.TextScaled = true
 Enter.TextSize = 14.000
 Enter.TextWrapped = true
-Enter.MouseButton1Click:Connect(function()
+function bruh()
 	if Key_2.Text == "hi" then
 		if game.PlaceId == 8534845015 then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/sakura.lua"))()
@@ -92,7 +92,7 @@ Enter.MouseButton1Click:Connect(function()
 			wait(1)
 			Frame.Visible = false
 		elseif game.PlaceId == 9203864304 then
-			loadstring(game:HttpGet(https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/raise%20a%20floppa.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/raise%20a%20floppa.lua"))()
 			Key_2.Text = "Correct"
 			wait(1)
 			Frame.Visible = false
@@ -107,6 +107,6 @@ Enter.MouseButton1Click:Connect(function()
 			Frame.Visible = false
 		end
 	end
-end)
-
+end
+Enter.MouseButton1Click:Connect(bruh)
 UICorner_3.Parent = Enter
