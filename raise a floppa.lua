@@ -60,8 +60,6 @@ AutoClick.MouseButton1Down:Connect(function()
             for i,v in pairs(workspace.Floppa:GetDescendants()) do
                 if v:IsA("ClickDetector") and on == true then
                         fireclickdetector(v)
-                    else
-                        AutoClick.Text = "AutoClick ❌"
                     end
                 end
             end
