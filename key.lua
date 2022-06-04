@@ -102,7 +102,8 @@ function bruh()
 			wait(1)
 			Frame.Visible = false
 		else
-			Key_2.Text = "Game Not Supported Yet"
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/BeastBlox/ScriptWare/main/Universal.lua"))()
+			Key_2.Text = "Game Not Supported Yet Loading Universal"
 			wait(1)
 			Frame.Visible = false
 		end
